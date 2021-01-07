@@ -26,9 +26,7 @@ class DrinksTableViewDataSource<CELL : UITableViewCell,T> : NSObject, UITableVie
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        
-         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! CELL
-        
+        let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as! CELL
         let item = self.items[indexPath.row]
         self.configureCell(cell, item)
         return cell

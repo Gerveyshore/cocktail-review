@@ -128,14 +128,10 @@ depends-member:
 - !private ["s25ExpressibleByArrayLiteralP", "count"]
 - !private ["s25ExpressibleByArrayLiteralP", "row"]
 - !private ["s25ExpressibleByArrayLiteralP", "subscript"]
-- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", ""]
 - !private ["s25ExpressibleByFloatLiteralP", ""]
 - !private ["s27ExpressibleByIntegerLiteralP", ""]
 - !private ["s23ExpressibleByNilLiteralP", "count"]
 - !private ["s23ExpressibleByNilLiteralP", "subscript"]
-- !private ["s32ExpressibleByStringInterpolationP", ""]
-- !private ["s26ExpressibleByStringLiteralP", ""]
-- !private ["s33ExpressibleByUnicodeScalarLiteralP", ""]
 - !private ["SF", ""]
 - ["SH", ""]
 - !private ["SH", "cellIdentifier"]
@@ -152,7 +148,6 @@ depends-member:
 - !private ["SH", "subscript"]
 - ["SH", "tableView"]
 - !private ["10Foundation9IndexPathV", "row"]
-- !private ["s25LosslessStringConvertibleP", ""]
 - !private ["SM", ""]
 - !private ["SM", "count"]
 - !private ["SM", "row"]
@@ -181,7 +176,6 @@ depends-member:
 - ["So8NSObjectC", "tableView"]
 - ["So8NSObjectP", "IndexPath"]
 - ["So8NSObjectP", "Int"]
-- ["So8NSObjectP", "String"]
 - ["So8NSObjectP", "UITableView"]
 - ["So8NSObjectP", "UITableViewCell"]
 - ["So8NSObjectP", ""]
@@ -214,8 +208,6 @@ depends-member:
 - !private ["ST", "subscript"]
 - !private ["s13SignedNumericP", ""]
 - !private ["Sx", ""]
-- !private ["s16TextOutputStreamP", ""]
-- !private ["s20TextOutputStreamableP", ""]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCell"]
 - !private ["So29UIAccessibilityIdentificationP", "dequeueReusableCellWithIdentifier"]
 - !private ["So12UIAppearanceP", "dequeueReusableCell"]
@@ -241,7 +233,6 @@ depends-member:
 - !private ["So24UILargeContentViewerItemP", "dequeueReusableCellWithIdentifier"]
 - !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCell"]
 - !private ["So30UIPasteConfigurationSupportingP", "dequeueReusableCellWithIdentifier"]
-- ["So11UIResponderC", ""]
 - !private ["So11UIResponderC", "dequeueReusableCell"]
 - !private ["So11UIResponderC", "dequeueReusableCellWithIdentifier"]
 - !private ["So30UIResponderStandardEditActionsP", "dequeueReusableCell"]
@@ -273,10 +264,7 @@ depends-member:
 - !private ["s14_ArrayProtocolP", "subscript"]
 - !private ["s24_DestructorSafeContainerP", "count"]
 - !private ["s24_DestructorSafeContainerP", "subscript"]
-- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", ""]
-- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
-- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", ""]
 - !private ["s19_HasContiguousBytesP", "count"]
 - !private ["s19_HasContiguousBytesP", "subscript"]
 - !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
@@ -327,17 +315,12 @@ depends-nominal:
 - !private "SE"
 - "SQ"
 - !private "s25ExpressibleByArrayLiteralP"
-- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
 - !private "s25ExpressibleByFloatLiteralP"
 - !private "s27ExpressibleByIntegerLiteralP"
 - !private "s23ExpressibleByNilLiteralP"
-- !private "s32ExpressibleByStringInterpolationP"
-- !private "s26ExpressibleByStringLiteralP"
-- !private "s33ExpressibleByUnicodeScalarLiteralP"
 - !private "SF"
 - "SH"
 - !private "10Foundation9IndexPathV"
-- !private "s25LosslessStringConvertibleP"
 - !private "SM"
 - !private "10Foundation19MutableDataProtocolP"
 - "So8NSCodingP"
@@ -351,8 +334,6 @@ depends-nominal:
 - !private "ST"
 - !private "s13SignedNumericP"
 - !private "Sx"
-- !private "s16TextOutputStreamP"
-- !private "s20TextOutputStreamableP"
 - !private "So29UIAccessibilityIdentificationP"
 - !private "So12UIAppearanceP"
 - !private "So21UIAppearanceContainerP"
@@ -365,7 +346,7 @@ depends-nominal:
 - !private "So30UIFocusItemScrollableContainerP"
 - !private "So24UILargeContentViewerItemP"
 - !private "So30UIPasteConfigurationSupportingP"
-- "So11UIResponderC"
+- !private "So11UIResponderC"
 - !private "So30UIResponderStandardEditActionsP"
 - "So12UIScrollViewC"
 - !private "So35UISpringLoadedInteractionSupportingP"
@@ -376,10 +357,7 @@ depends-nominal:
 - "So6UIViewC"
 - !private "s14_ArrayProtocolP"
 - !private "s24_DestructorSafeContainerP"
-- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
-- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - !private "s34_ExpressibleByBuiltinStringLiteralP"
-- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
 - !private "s19_HasContiguousBytesP"
 - !private "s35_HasCustomAnyHashableRepresentationP"
 - "10Foundation27_KeyValueCodingAndObservingP"

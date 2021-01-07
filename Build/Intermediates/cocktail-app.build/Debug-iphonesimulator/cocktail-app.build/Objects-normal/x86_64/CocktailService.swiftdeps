@@ -7,47 +7,133 @@ provides-member:
 - ["12cocktail_app15CocktailServiceC", ""]
 provides-dynamic-lookup:
 - "endpoint"
+- "fetchDetailedDrinkById"
 - "fetchDrinksByCategory"
+- "fetchImageData"
 - "sharedInstance"
 depends-top-level:
+- "!="
 - !private "AF"
 - "CocktailService"
+- "Data"
+- "DetailedDrink"
+- !private "DetailedDrinks"
 - "Drinks"
 - !private "FloatLiteralType"
 - !private "IntegerLiteralType"
 - "String"
 - "StringLiteralType"
+- !private "URL"
+- !private "URLSession"
 - "print"
 depends-member:
+- !private ["9Alamofire0A8ExtendedP", "first"]
+- !private ["Sa", "first"]
+- !private ["SK", ""]
+- !private ["SK", "first"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "first"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
 - !private ["12cocktail_app15CocktailServiceC", "AF"]
 - ["12cocktail_app15CocktailServiceC", "CocktailService"]
+- ["12cocktail_app15CocktailServiceC", "Data"]
+- ["12cocktail_app15CocktailServiceC", "DetailedDrink"]
+- !private ["12cocktail_app15CocktailServiceC", "DetailedDrinks"]
 - ["12cocktail_app15CocktailServiceC", "Drinks"]
 - ["12cocktail_app15CocktailServiceC", "String"]
+- !private ["12cocktail_app15CocktailServiceC", "URL"]
+- !private ["12cocktail_app15CocktailServiceC", "URLSession"]
 - ["12cocktail_app15CocktailServiceC", "deinit"]
 - ["12cocktail_app15CocktailServiceC", "endpoint"]
+- ["12cocktail_app15CocktailServiceC", "fetchDetailedDrinkById"]
 - ["12cocktail_app15CocktailServiceC", "fetchDrinksByCategory"]
+- ["12cocktail_app15CocktailServiceC", "fetchImageData"]
 - ["12cocktail_app15CocktailServiceC", "init"]
 - !private ["12cocktail_app15CocktailServiceC", "print"]
 - ["12cocktail_app15CocktailServiceC", "sharedInstance"]
+- !private ["Sl", ""]
+- !private ["Sl", "first"]
+- !private ["10Foundation15ContiguousBytesP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
 - !private ["s28CustomDebugStringConvertibleP", "value"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", ""]
 - !private ["s23CustomStringConvertibleP", "appendInterpolation"]
 - !private ["s23CustomStringConvertibleP", "appendLiteral"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- !private ["s23CustomStringConvertibleP", "init"]
 - !private ["s23CustomStringConvertibleP", "responseDecodable"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
 - !private ["s23CustomStringConvertibleP", "value"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "first"]
 - !private ["9Alamofire11DataRequestC", "responseDecodable"]
 - !private ["9Alamofire12DataResponseV", "value"]
+- !private ["Se", "all"]
+- !private ["Se", "first"]
+- !private ["Se", "init"]
 - !private ["s26DefaultStringInterpolationV", "appendInterpolation"]
 - !private ["s26DefaultStringInterpolationV", "appendLiteral"]
+- !private ["12cocktail_app14DetailedDrinksV", ""]
+- !private ["12cocktail_app14DetailedDrinksV", "all"]
 - !private ["12cocktail_app6DrinksV", ""]
+- !private ["SE", "first"]
+- !private ["SE", "init"]
 - !private ["SQ", ""]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "first"]
+- !private ["SQ", "init"]
 - !private ["SQ", "responseDecodable"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s23ExpressibleByNilLiteralP", "init"]
 - !private ["s32ExpressibleByStringInterpolationP", "StringInterpolation"]
 - !private ["s32ExpressibleByStringInterpolationP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "dataTask"]
+- !private ["SH", "first"]
+- !private ["SH", "init"]
 - !private ["SH", "responseDecodable"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SM", ""]
+- !private ["SM", "first"]
+- !private ["10Foundation19MutableDataProtocolP", "first"]
+- !private ["So8NSCodingP", ""]
+- !private ["So9NSCopyingP", "resume"]
+- ["So8NSObjectC", ""]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "dataTaskWithRequest"]
+- !private ["So8NSObjectC", "dataTaskWithURL"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
 - !private ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "dataTaskWithRequest"]
+- !private ["So8NSObjectP", "dataTaskWithURL"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["Sk", ""]
+- !private ["Sk", "first"]
+- !private ["Sm", ""]
+- !private ["Sm", "first"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
 - ["9Alamofire7RequestC", ""]
 - !private ["9Alamofire7RequestC", "responseDecodable"]
 - !private ["9Alamofire15RequestDelegateP", "request"]
+- !private ["ST", ""]
+- !private ["ST", "first"]
 - !private ["9Alamofire7SessionC", "request"]
 - !private ["9Alamofire20SessionStateProviderP", "request"]
 - !private ["s27StringInterpolationProtocolP", "appendInterpolation"]
@@ -55,28 +141,87 @@ depends-member:
 - !private ["s27StringInterpolationProtocolP", "init"]
 - !private ["s16TextOutputStreamP", "appendInterpolation"]
 - !private ["s16TextOutputStreamP", "appendLiteral"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["9Alamofire14URLConvertibleP", "init"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- ["So16NSURLSessionTaskC", ""]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["s14_ArrayProtocolP", "first"]
+- !private ["s30_CustomPlaygroundQuickLookableP", "init"]
+- !private ["s24_DestructorSafeContainerP", "first"]
 - !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
 - ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "dataTask"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "resume"]
+- !private ["10Foundation37_KeyValueCodingAndObservingPublishingP", "shared"]
+- !private ["s21_ObjectiveCBridgeableP", ""]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
 depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
 - "12cocktail_app15CocktailServiceC"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
 - !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
 - !private "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
 - !private "9Alamofire11DataRequestC"
 - !private "9Alamofire12DataResponseV"
+- !private "Se"
 - !private "s26DefaultStringInterpolationV"
+- !private "12cocktail_app14DetailedDrinksV"
 - !private "12cocktail_app6DrinksV"
+- !private "SE"
 - !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
 - !private "s32ExpressibleByStringInterpolationP"
 - !private "SH"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- "So8NSObjectC"
 - !private "So8NSObjectP"
+- !private "So19NSProgressReportingP"
+- !private "Sk"
+- !private "Sm"
+- !private "10Foundation20ReferenceConvertibleP"
 - "9Alamofire7RequestC"
 - !private "9Alamofire15RequestDelegateP"
+- !private "ST"
 - !private "9Alamofire7SessionC"
 - !private "9Alamofire20SessionStateProviderP"
 - !private "s27StringInterpolationProtocolP"
 - !private "s16TextOutputStreamP"
+- !private "10Foundation3URLV"
+- !private "9Alamofire14URLConvertibleP"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- "So16NSURLSessionTaskC"
+- !private "s14_ArrayProtocolP"
+- !private "s30_CustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
 - !private "s35_ExpressibleByBuiltinIntegerLiteralP"
 - "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "10Foundation37_KeyValueCodingAndObservingPublishingP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode12.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -108,4 +253,4 @@ depends-external:
 - "/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "d8532135a80cea2b0d0b1fb748afe649"
+interface-hash: "93950aa391c804b3714c3fdc3987d611"

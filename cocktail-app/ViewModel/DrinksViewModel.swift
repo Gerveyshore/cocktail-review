@@ -10,6 +10,7 @@ import Foundation
 class DrinksViewModel {
 
     private var cocktailService: CocktailService?
+    
     private(set) var drinksData : [Drink]! {
         didSet {
             self.bindDrinksViewModelToController()

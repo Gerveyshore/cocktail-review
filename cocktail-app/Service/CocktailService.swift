@@ -43,4 +43,32 @@ class CocktailService {
             completion(detailedDrink)
         }
     }
+    
+    //                self.fetchImage(from: link){ (imageData) in
+    //                        if let data = imageData {
+    //                            // referenced imageView from main thread
+    //                            // as iOS SDK warns not to use images from
+    //                            // a background thread
+    //                            DispatchQueue.main.async {
+    //                                cell.imageThumbnail.image = UIImage(data: data)
+    //                            }
+    //                        } else {
+    //                            print("Error loading image");
+    //                        }
+    //                    }
+    
+    func fetchImageData(from urlString: String, completionHandler: @escaping (_ data: Data?) -> ()) {
+        let session = URLSession.shared
+        let url = URL(string: urlString)
+            
+        let dataTask = session.dataTask(with: url!) { data, response, error in
+            if error != nil {
+                print("Error fetching the image! 😢")
+                completionHandler(nil)
+            } else {
+                completionHandler(data)
+            }
+        }
+        dataTask.resume()
+    }
 }

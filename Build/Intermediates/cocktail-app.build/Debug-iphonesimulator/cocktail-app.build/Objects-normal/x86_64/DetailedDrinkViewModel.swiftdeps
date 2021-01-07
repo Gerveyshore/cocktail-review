@@ -1,11 +1,37 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "DetailedDrinkViewModel"
 provides-nominal:
+- "12cocktail_app22DetailedDrinkViewModelC"
 provides-member:
+- ["12cocktail_app22DetailedDrinkViewModelC", ""]
 provides-dynamic-lookup:
+- "bindDetailedDrinkViewModelToController"
+- "cocktailService"
+- "detailedDrinkData"
+- "getDetailedDrink"
 depends-top-level:
+- "AssignmentPrecedence"
+- "CocktailService"
+- "DetailedDrink"
+- "DetailedDrinkViewModel"
+- "String"
+- !private "getDetailedDrink"
 depends-member:
+- !private ["12cocktail_app15CocktailServiceC", "fetchDetailedDrinkById"]
+- !private ["12cocktail_app15CocktailServiceC", "init"]
+- ["12cocktail_app22DetailedDrinkViewModelC", "CocktailService"]
+- ["12cocktail_app22DetailedDrinkViewModelC", "DetailedDrink"]
+- ["12cocktail_app22DetailedDrinkViewModelC", "String"]
+- ["12cocktail_app22DetailedDrinkViewModelC", "bindDetailedDrinkViewModelToController"]
+- !private ["12cocktail_app22DetailedDrinkViewModelC", "cocktailService"]
+- ["12cocktail_app22DetailedDrinkViewModelC", "deinit"]
+- ["12cocktail_app22DetailedDrinkViewModelC", "detailedDrinkData"]
+- ["12cocktail_app22DetailedDrinkViewModelC", "getDetailedDrink"]
+- ["12cocktail_app22DetailedDrinkViewModelC", "init"]
 depends-nominal:
+- !private "12cocktail_app15CocktailServiceC"
+- "12cocktail_app22DetailedDrinkViewModelC"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode12.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -37,4 +63,4 @@ depends-external:
 - "/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "a772e96d8bc8bab2ad5a9de4086cc2fd"

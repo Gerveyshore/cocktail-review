@@ -1,8 +1,10 @@
-/Users/samuel/Projects/cocktail-review/cocktail-app/Model/DetailedDrink.swift
+/Users/samuel/Projects/cocktail-review/cocktail-app/DetailedViewController.swift
 /Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/DrinksTableViewDataSource.swift
 /Users/samuel/Projects/cocktail-review/cocktail-app/ViewController.swift
+/Users/samuel/Projects/cocktail-review/cocktail-app/Model/DetailedDrink.swift
+/Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/Review/DicksViewModel.swift
+/Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/Review/DicksTableViewDataSource.swift
 /Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/DrinksViewModel.swift
-/Users/samuel/Projects/cocktail-review/cocktail-app/DetailedViewController.swift
 /Users/samuel/Projects/cocktail-review/cocktail-app/extensions.swift
 /Users/samuel/Projects/cocktail-review/cocktail-app/Model/Drinks.swift
 /Users/samuel/Projects/cocktail-review/cocktail-app/AppDelegate.swift

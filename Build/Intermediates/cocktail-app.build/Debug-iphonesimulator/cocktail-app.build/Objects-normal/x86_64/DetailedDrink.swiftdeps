@@ -1,11 +1,303 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
+- "DetailedDrink"
 provides-nominal:
+- "12cocktail_app13DetailedDrinkV"
+- "12cocktail_app13DetailedDrinkV10CodingKeysO"
 provides-member:
+- ["12cocktail_app13DetailedDrinkV", ""]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", ""]
+- ["12cocktail_app13DetailedDrinkV", "listIngredients"]
 provides-dynamic-lookup:
 depends-top-level:
+- "=="
+- !private "Array"
+- "CodingKey"
+- "Decodable"
+- "DetailedDrink"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- "StringLiteralType"
+- !private "_findStringSwitchCase"
+- !private "ingredient1"
+- !private "ingredient10"
+- !private "ingredient11"
+- !private "ingredient12"
+- !private "ingredient13"
+- !private "ingredient14"
+- !private "ingredient15"
+- !private "ingredient2"
+- !private "ingredient3"
+- !private "ingredient4"
+- !private "ingredient5"
+- !private "ingredient6"
+- !private "ingredient7"
+- !private "ingredient8"
+- !private "ingredient9"
+- !private "~="
 depends-member:
+- !private ["9Alamofire0A8ExtendedP", "compactMap"]
+- !private ["Sa", "compactMap"]
+- !private ["SK", ""]
+- !private ["SK", "compactMap"]
+- !private ["s7CVarArgP", "compactMap"]
+- ["s9CodingKeyP", "=="]
+- ["s9CodingKeyP", "Default_RawValue"]
+- ["s9CodingKeyP", "RawValue"]
+- ["s9CodingKeyP", ""]
+- ["s9CodingKeyP", "_Default_RawValue"]
+- !private ["s9CodingKeyP", "_findStringSwitchCase"]
+- ["s9CodingKeyP", "_rawHashValue"]
+- ["s9CodingKeyP", "debugDescription"]
+- ["s9CodingKeyP", "description"]
+- !private ["s9CodingKeyP", "findStringSwitchCase"]
+- ["s9CodingKeyP", "hash"]
+- ["s9CodingKeyP", "hashValue"]
+- ["s9CodingKeyP", "init"]
+- ["s9CodingKeyP", "intValue"]
+- ["s9CodingKeyP", "rawValue"]
+- ["s9CodingKeyP", "stringValue"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "=="]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "Default_RawValue"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "RawValue"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", ""]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "_Default_RawValue"]
+- !private ["12cocktail_app13DetailedDrinkV10CodingKeysO", "_findStringSwitchCase"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "_rawHashValue"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "category"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "debugDescription"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "description"]
+- !private ["12cocktail_app13DetailedDrinkV10CodingKeysO", "findStringSwitchCase"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "hash"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "hashValue"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "id"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient1"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient10"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient11"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient12"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient13"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient14"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient15"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient2"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient3"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient4"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient5"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient6"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient7"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient8"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "ingredient9"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "init"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "instructions"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "intValue"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "name"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "rawValue"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "stringValue"]
+- ["12cocktail_app13DetailedDrinkV10CodingKeysO", "thumbnailLink"]
+- !private ["Sl", ""]
+- !private ["Sl", "compactMap"]
+- !private ["10Foundation15ContiguousBytesP", "compactMap"]
+- ["s28CustomDebugStringConvertibleP", "=="]
+- ["s28CustomDebugStringConvertibleP", "Default_RawValue"]
+- ["s28CustomDebugStringConvertibleP", "RawValue"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_RawValue"]
+- !private ["s28CustomDebugStringConvertibleP", "_findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "_rawHashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "compactMap"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "description"]
+- !private ["s28CustomDebugStringConvertibleP", "findStringSwitchCase"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "intValue"]
+- ["s28CustomDebugStringConvertibleP", "rawValue"]
+- ["s28CustomDebugStringConvertibleP", "stringValue"]
+- !private ["s17CustomReflectableP", "compactMap"]
+- ["s23CustomStringConvertibleP", "=="]
+- ["s23CustomStringConvertibleP", "Default_RawValue"]
+- ["s23CustomStringConvertibleP", "RawValue"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_RawValue"]
+- !private ["s23CustomStringConvertibleP", "_findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "_rawHashValue"]
+- !private ["s23CustomStringConvertibleP", "compactMap"]
+- ["s23CustomStringConvertibleP", "debugDescription"]
+- ["s23CustomStringConvertibleP", "description"]
+- !private ["s23CustomStringConvertibleP", "findStringSwitchCase"]
+- ["s23CustomStringConvertibleP", "hash"]
+- ["s23CustomStringConvertibleP", "hashValue"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "intValue"]
+- ["s23CustomStringConvertibleP", "rawValue"]
+- ["s23CustomStringConvertibleP", "stringValue"]
+- !private ["10Foundation12DataProtocolP", ""]
+- !private ["10Foundation12DataProtocolP", "compactMap"]
+- ["Se", "CodingKey"]
+- ["Se", ""]
+- !private ["Se", "_findStringSwitchCase"]
+- !private ["Se", "category"]
+- !private ["Se", "compactMap"]
+- !private ["Se", "findStringSwitchCase"]
+- !private ["Se", "id"]
+- !private ["Se", "ingredient1"]
+- !private ["Se", "ingredient10"]
+- !private ["Se", "ingredient11"]
+- !private ["Se", "ingredient12"]
+- !private ["Se", "ingredient13"]
+- !private ["Se", "ingredient14"]
+- !private ["Se", "ingredient15"]
+- !private ["Se", "ingredient2"]
+- !private ["Se", "ingredient3"]
+- !private ["Se", "ingredient4"]
+- !private ["Se", "ingredient5"]
+- !private ["Se", "ingredient6"]
+- !private ["Se", "ingredient7"]
+- !private ["Se", "ingredient8"]
+- !private ["Se", "ingredient9"]
+- ["Se", "init"]
+- !private ["Se", "instructions"]
+- !private ["Se", "name"]
+- !private ["Se", "thumbnailLink"]
+- !private ["s7DecoderP", "container"]
+- ["12cocktail_app13DetailedDrinkV", "CodingKey"]
+- ["12cocktail_app13DetailedDrinkV", "CodingKeys"]
+- ["12cocktail_app13DetailedDrinkV", "String"]
+- ["12cocktail_app13DetailedDrinkV", ""]
+- !private ["12cocktail_app13DetailedDrinkV", "_findStringSwitchCase"]
+- ["12cocktail_app13DetailedDrinkV", "category"]
+- !private ["12cocktail_app13DetailedDrinkV", "findStringSwitchCase"]
+- ["12cocktail_app13DetailedDrinkV", "id"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient1"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient10"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient11"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient12"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient13"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient14"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient15"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient2"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient3"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient4"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient5"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient6"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient7"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient8"]
+- ["12cocktail_app13DetailedDrinkV", "ingredient9"]
+- ["12cocktail_app13DetailedDrinkV", "init"]
+- ["12cocktail_app13DetailedDrinkV", "instructions"]
+- ["12cocktail_app13DetailedDrinkV", "listIngredients"]
+- ["12cocktail_app13DetailedDrinkV", "name"]
+- ["12cocktail_app13DetailedDrinkV", "thumbnailLink"]
+- !private ["SE", "compactMap"]
+- ["SQ", "=="]
+- ["SQ", "Default_RawValue"]
+- ["SQ", "RawValue"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_findStringSwitchCase"]
+- ["SQ", "_rawHashValue"]
+- !private ["SQ", "compactMap"]
+- ["SQ", "debugDescription"]
+- ["SQ", "description"]
+- !private ["SQ", "findStringSwitchCase"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- ["SQ", "intValue"]
+- ["SQ", "rawValue"]
+- ["SQ", "stringValue"]
+- !private ["s25ExpressibleByArrayLiteralP", ""]
+- !private ["s25ExpressibleByArrayLiteralP", "compactMap"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- ["SH", "=="]
+- ["SH", "Default_RawValue"]
+- ["SH", "RawValue"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_findStringSwitchCase"]
+- ["SH", "_rawHashValue"]
+- !private ["SH", "compactMap"]
+- ["SH", "debugDescription"]
+- ["SH", "description"]
+- !private ["SH", "findStringSwitchCase"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- ["SH", "intValue"]
+- ["SH", "rawValue"]
+- ["SH", "stringValue"]
+- !private ["s22KeyedDecodingContainerV", "decode"]
+- !private ["s22KeyedDecodingContainerV", "decodeIfPresent"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decode"]
+- !private ["s30KeyedDecodingContainerProtocolP", "decodeIfPresent"]
+- !private ["SM", ""]
+- !private ["SM", "compactMap"]
+- !private ["10Foundation19MutableDataProtocolP", "compactMap"]
+- !private ["Sk", ""]
+- !private ["Sk", "compactMap"]
+- !private ["Sm", ""]
+- !private ["Sm", "compactMap"]
+- ["SY", "=="]
+- ["SY", "Default_RawValue"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "_findStringSwitchCase"]
+- ["SY", "_rawHashValue"]
+- ["SY", "debugDescription"]
+- ["SY", "description"]
+- !private ["SY", "findStringSwitchCase"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "intValue"]
+- ["SY", "rawValue"]
+- ["SY", "stringValue"]
+- !private ["ST", ""]
+- !private ["ST", "compactMap"]
+- !private ["s14_ArrayProtocolP", "compactMap"]
+- !private ["s24_DestructorSafeContainerP", "compactMap"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s19_HasContiguousBytesP", "compactMap"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compactMap"]
+- !private ["s21_ObjectiveCBridgeableP", "compactMap"]
 depends-nominal:
+- !private "9Alamofire0A8ExtendedP"
+- !private "Sa"
+- !private "SK"
+- !private "s7CVarArgP"
+- "s9CodingKeyP"
+- "12cocktail_app13DetailedDrinkV10CodingKeysO"
+- !private "Sl"
+- !private "10Foundation15ContiguousBytesP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation12DataProtocolP"
+- "Se"
+- !private "s7DecoderP"
+- "12cocktail_app13DetailedDrinkV"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "s22KeyedDecodingContainerV"
+- !private "s30KeyedDecodingContainerProtocolP"
+- !private "SM"
+- !private "10Foundation19MutableDataProtocolP"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "ST"
+- !private "s14_ArrayProtocolP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s19_HasContiguousBytesP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
 depends-dynamic-lookup:
 depends-external:
 - "/Applications/Xcode12.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/prebuilt-modules/ObjectiveC.swiftmodule/x86_64-apple-ios-simulator.swiftmodule"
@@ -37,4 +329,4 @@ depends-external:
 - "/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
 - "/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
 - "/Applications/Xcode12.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator14.2.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
-interface-hash: "5bf39d8b5f0094ca83c744a0da4fb204"
+interface-hash: "64cb1703b377165722679b38f0ac772d"

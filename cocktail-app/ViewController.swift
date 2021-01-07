@@ -12,66 +12,56 @@ class ViewController: UIViewController, DrinkCellDelegate {
 
     @IBOutlet weak var drinksTableView: UITableView!
 
-    private var drinksViewModel : DrinksViewModel!
-        
-    private var dataSource : DrinksTableViewDataSource<DrinksTableViewCell,Drink>!
-    
+    private var drinksViewModel = DicksViewModel()
+    private var dataSource : DicksTableViewDataSource?
     private var drinkId : String = ""
     
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        callToViewModelForUIUpdate()
+        initializeDataSource()
+        fetchDrinks()
     }
     
-    func callToViewModelForUIUpdate(){
-        self.drinksViewModel = DrinksViewModel()
-        self.drinksViewModel.bindDrinksViewModelToController = {
-            self.updateDataSource()
+    func initializeDataSource() {
+        dataSource = DicksTableViewDataSource(withViewModel: drinksViewModel)
+        drinksTableView.dataSource = dataSource
+    }
+    
+    func fetchDrinks() {
+        drinksViewModel.getOrdinaryDrinks {
+            DispatchQueue.main.async {
+                self.drinksTableView.reloadData()
+            }
         }
     }
     
     func updateDataSource(){
-        self.dataSource = DrinksTableViewDataSource(cellIdentifier: "DrinksTableViewCell", items: self.drinksViewModel.drinksData, configureCell: { (cell, drink) in
-            cell.delegate = self
-            cell.drinkIdLabel.text = drink.id
-            cell.drinkNameLabel.text = drink.name
-            if let link = drink.thumbnailLink {
-                self.fetchImage(from: link){ (imageData) in
-                        if let data = imageData {
-                            // referenced imageView from main thread
-                            // as iOS SDK warns not to use images from
-                            // a background thread
-                            DispatchQueue.main.async {
-                                cell.imageThumbnail.image = UIImage(data: data)
-                            }
-                        } else {
-                            print("Error loading image");
-                        }
-                    }
-            }
-            
-        })
+//        self.dataSource = DrinksTableViewDataSource(cellIdentifier: "DrinksTableViewCell", items: self.drinksViewModel.drinksData, configureCell: { (cell, drink) in
+//            cell.delegate = self
+//            cell.drinkIdLabel.text = drink.id
+//            cell.drinkNameLabel.text = drink.name
+//            if let link = drink.thumbnailLink {
+//                self.fetchImage(from: link){ (imageData) in
+//                        if let data = imageData {
+//                            // referenced imageView from main thread
+//                            // as iOS SDK warns not to use images from
+//                            // a background thread
+//                            DispatchQueue.main.async {
+//                                cell.imageThumbnail.image = UIImage(data: data)
+//                            }
+//                        } else {
+//                            print("Error loading image");
+//                        }
+//                    }
+//            }
+//
+//        })
         
-        DispatchQueue.main.async {
-            self.drinksTableView.dataSource = self.dataSource
-            self.drinksTableView.reloadData()
-        }
-    }
-    func fetchImage(from urlString: String, completionHandler: @escaping (_ data: Data?) -> ()) {
-        let session = URLSession.shared
-        let url = URL(string: urlString)
-            
-        let dataTask = session.dataTask(with: url!) { (data, response, error) in
-            if error != nil {
-                print("Error fetching the image! 😢")
-                completionHandler(nil)
-            } else {
-                completionHandler(data)
-            }
-        }
-            
-        dataTask.resume()
+//        DispatchQueue.main.async {
+//            self.drinksTableView.dataSource = self.dataSource
+//            self.drinksTableView.reloadData()
+//        }
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {

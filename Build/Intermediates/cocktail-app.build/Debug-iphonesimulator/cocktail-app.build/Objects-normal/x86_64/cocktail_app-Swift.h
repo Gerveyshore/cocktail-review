@@ -188,6 +188,8 @@ typedef unsigned int swift_uint4  __attribute__((__ext_vector_type__(4)));
 #if __has_warning("-Watimport-in-framework-header")
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
+@import Foundation;
+@import ObjectiveC;
 @import UIKit;
 #endif
 
@@ -221,14 +223,38 @@ SWIFT_CLASS("_TtC12cocktail_app11AppDelegate")
 
 @class UILabel;
 @class UIImageView;
+@class NSBundle;
 @class NSCoder;
+
+SWIFT_CLASS("_TtC12cocktail_app22DetailedViewController")
+@interface DetailedViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified drinkNameLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified drinkIdLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified drinkImage;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified drinkInstructionsLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified drinkIngredientsLabel;
+- (void)viewDidLoad;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+@class UITableView;
+@class UITableViewCell;
+
+SWIFT_CLASS("_TtC12cocktail_app24DicksTableViewDataSource")
+@interface DicksTableViewDataSource : NSObject <UITableViewDataSource>
+- (NSInteger)tableView:(UITableView * _Nonnull)tableView numberOfRowsInSection:(NSInteger)section SWIFT_WARN_UNUSED_RESULT;
+- (UITableViewCell * _Nonnull)tableView:(UITableView * _Nonnull)tableView cellForRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath SWIFT_WARN_UNUSED_RESULT;
+- (nonnull instancetype)init SWIFT_UNAVAILABLE;
++ (nonnull instancetype)new SWIFT_UNAVAILABLE_MSG("-init is unavailable");
+@end
+
 
 SWIFT_CLASS("_TtC12cocktail_app19DrinksTableViewCell")
 @interface DrinksTableViewCell : UITableViewCell
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified drinkIdLabel;
-@property (nonatomic, weak) IBOutlet UILabel * _Null_unspecified drinkNameLabel;
-@property (nonatomic, weak) IBOutlet UIImageView * _Null_unspecified imageThumbnail;
-- (void)awakeFromNib;
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable drinkIdLabel;
+@property (nonatomic, weak) IBOutlet UILabel * _Nullable drinkNameLabel;
+@property (nonatomic, weak) IBOutlet UIImageView * _Nullable imageThumbnail;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * _Nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER SWIFT_AVAILABILITY(ios,introduced=3.0);
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
@@ -250,13 +276,13 @@ SWIFT_CLASS("_TtC12cocktail_app13SceneDelegate")
 @end
 
 
-@class UITableView;
-@class NSBundle;
+@class UIStoryboardSegue;
 
 SWIFT_CLASS("_TtC12cocktail_app14ViewController")
 @interface ViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UITableView * _Null_unspecified drinksTableView;
 - (void)viewDidLoad;
+- (void)prepareForSegue:(UIStoryboardSegue * _Nonnull)segue sender:(id _Nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
