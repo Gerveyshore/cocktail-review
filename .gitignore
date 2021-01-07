@@ -1,0 +1,48 @@
+# Xcode
+#
+# gitignore contributors: remember to update Global/Xcode.gitignore, Objective-C.gitignore & Swift.gitignore
+
+## Build generated
+build/
+DerivedData/
+Logs/
+ModuleCache/
+ModuleCache.noindex/
+OneTalk.xcworkspace/
+OneTalk.xcodeproj/
+cocktail-app.xcodeproj/project.xcworkspace/xcuserdata
+
+dsyms/*
+
+*.DS_Store
+.DS_Store
+
+## Various settings
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+index/
+
+# Fastlane
+fastlane/test_output
+fastlane/summitci
+fastlane/*.json
+!fastlane/FastLaneConfig.json
+
+## Other
+*.moved-aside
+*.xccheckout
+*.xcscmblueprint
+*.xcuserstate
+fastlane/README.md
+fastlane/report.xml
+#info.plist
+
+## Cocoapods
+Pods/
