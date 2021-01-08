@@ -66,7 +66,6 @@
                                             <outlet property="drinkIdLabel" destination="Unh-mc-q5z" id="kCv-DC-zK6"/>
                                             <outlet property="drinkNameLabel" destination="Rlz-Z9-vpZ" id="8YQ-TH-7is"/>
                                             <outlet property="imageThumbnail" destination="eE4-Qx-Tjm" id="uxk-hf-UFE"/>
-                                            <segue destination="fMu-63-Ckg" kind="showDetail" identifier="SegueToDetailedView" id="Q70-mQ-i3G"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
@@ -94,26 +93,26 @@
             <objects>
                 <viewController title="Detailed View Controller" id="fMu-63-Ckg" customClass="DetailedViewController" customModule="cocktail_app" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="scM-0w-26x">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CYZ-5p-YfC">
-                                <rect key="frame" x="16" y="20" width="343" height="21"/>
+                                <rect key="frame" x="16" y="64" width="343" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="JBC-px-6ex">
-                                <rect key="frame" x="16" y="59" width="343" height="343"/>
+                                <rect key="frame" x="16" y="103" width="343" height="353"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QEF-5h-zEG">
-                                <rect key="frame" x="16" y="39" width="343" height="12"/>
+                                <rect key="frame" x="16" y="83" width="343" height="12"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-ThinItalic" family="Helvetica Neue" pointSize="10"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VmO-zS-wt6">
-                                <rect key="frame" x="16" y="549" width="343" height="70"/>
+                                <rect key="frame" x="16" y="603" width="343" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="rd9-Wo-tut"/>
                                 </constraints>
@@ -122,7 +121,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ingredients:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="s0N-2y-b5F">
-                                <rect key="frame" x="16" y="410" width="76" height="16"/>
+                                <rect key="frame" x="16" y="464" width="76" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="76" id="SPP-CP-zas"/>
                                 </constraints>
@@ -131,7 +130,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yIv-ay-xrD">
-                                <rect key="frame" x="92" y="410" width="267" height="15.666666666666686"/>
+                                <rect key="frame" x="92" y="464" width="267" height="15.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>

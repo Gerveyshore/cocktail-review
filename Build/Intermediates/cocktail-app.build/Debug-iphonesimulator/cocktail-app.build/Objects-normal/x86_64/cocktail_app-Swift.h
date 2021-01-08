@@ -287,6 +287,11 @@ SWIFT_CLASS("_TtC12cocktail_app14ViewController")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)coder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+
+@interface ViewController (SWIFT_EXTENSION(cocktail_app)) <UITableViewDelegate>
+- (void)tableView:(UITableView * _Nonnull)tableView didSelectRowAtIndexPath:(NSIndexPath * _Nonnull)indexPath;
+@end
+
 #if __has_attribute(external_source_symbol)
 # pragma clang attribute pop
 #endif

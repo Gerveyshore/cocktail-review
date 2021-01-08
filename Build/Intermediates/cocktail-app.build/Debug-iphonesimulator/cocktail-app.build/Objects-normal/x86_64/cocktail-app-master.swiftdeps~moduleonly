@@ -1,13 +1,13 @@
 version: "Apple Swift version 5.3.1 (swiftlang-1200.0.41 clang-1200.0.32.8)"
 options: "b8aa6a89168a9014ea87d60b308bcb02"
-build_time: [1610059832, 933367000]
+build_time: [1610120161, 922737000]
 inputs:
   "/Users/samuel/Projects/cocktail-review/cocktail-app/DetailedViewController.swift": [1610032270, 145459294]
   "/Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/DrinksTableViewDataSource.swift": [1610037693, 455327053]
-  "/Users/samuel/Projects/cocktail-review/cocktail-app/ViewController.swift": [1610046703, 752526517]
+  "/Users/samuel/Projects/cocktail-review/cocktail-app/ViewController.swift": [1610120161, 600511029]
   "/Users/samuel/Projects/cocktail-review/cocktail-app/Model/DetailedDrink.swift": [1610032270, 145716429]
-  "/Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/Review/DicksViewModel.swift": [1610047281, 965370877]
-  "/Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/Review/DicksTableViewDataSource.swift": [1610047302, 644712109]
+  "/Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/Review/DicksViewModel.swift": [1610120161, 591258582]
+  "/Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/Review/DicksTableViewDataSource.swift": [1610119513, 522078345]
   "/Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/DrinksViewModel.swift": [1610036868, 850196186]
   "/Users/samuel/Projects/cocktail-review/cocktail-app/extensions.swift": [1609876991, 635934591]
   "/Users/samuel/Projects/cocktail-review/cocktail-app/Model/Drinks.swift": [1609818278, 322616696]
@@ -15,6 +15,6 @@ inputs:
   "/Users/samuel/Projects/cocktail-review/cocktail-app/Model/DetailedDrinks.swift": [1610032270, 146029949]
   "/Users/samuel/Projects/cocktail-review/cocktail-app/ViewModel/DetailedDrinkViewModel.swift": [1610032270, 147672176]
   "/Users/samuel/Projects/cocktail-review/cocktail-app/Model/Drink.swift": [1610032270, 146395683]
-  "/Users/samuel/Projects/cocktail-review/cocktail-app/View/DrinksTableViewCell.swift": [1610059747, 824878718]
+  "/Users/samuel/Projects/cocktail-review/cocktail-app/View/DrinksTableViewCell.swift": [1610120161, 622018474]
   "/Users/samuel/Projects/cocktail-review/cocktail-app/Service/CocktailService.swift": [1610046934, 224375738]
   "/Users/samuel/Projects/cocktail-review/cocktail-app/SceneDelegate.swift": [1609818278, 322785974]

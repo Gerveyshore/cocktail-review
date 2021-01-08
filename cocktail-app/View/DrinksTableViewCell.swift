@@ -14,11 +14,11 @@ class DrinksTableViewCell: UITableViewCell {
     @IBOutlet weak var drinkNameLabel: UILabel?
     @IBOutlet weak var imageThumbnail: UIImageView?
     
-    weak var delegate: DrinkCellDelegate?
+    //HERE #9: J'ai enlevé ton delegate puisque tu n'en as pas besoin. Il y a déjà un truc par qui s'appelle UITableViewDelegate qui existe. Je vais te le montrer au HERE #10.
+//    weak var delegate: DrinkCellDelegate?
 
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-//        delegate?.drinkCellPressed(drinkId: self.drinkIdLabel.text!)
     }
     
     func setupThumbailImageView() {

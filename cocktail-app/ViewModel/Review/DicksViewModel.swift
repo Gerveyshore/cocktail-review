@@ -9,6 +9,8 @@ import Foundation
 import UIKit
 
 class DicksViewModel {
+    
+    //HERE #5: Ton ViewModel c'est lui qui va contenir ton data (drinksData). C'est aussi lui qui va se faire demander: "Hey, j'ai ma cellule à tel index, peux-tu me donner son image, son titre.. peux-tu aussi me donner combien j'ai de drinks, etc. C'est vraiment lui qui s'occupe de te donner le data que tu as besoin"
 
     private var cocktailService: CocktailService?
     private var drinksData : [Drink]?
